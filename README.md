@@ -1,10 +1,13 @@
-# todo-list
+# My Clojure ToDo List
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure project designed to keep your daily to-do's organized.
 
-## Usage
 
-FIXME
+
+
+
+
+
 
 ## License
 
