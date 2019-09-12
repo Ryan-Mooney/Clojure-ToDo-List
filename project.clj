@@ -5,6 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   ;;When running locally, it is important to have the same version numbers next to each
   :dependencies [[org.clojure/clojure "1.10.1"]
+                 ;;While this app uses ring, the asgard app uses http-kit to control their web connections
                  [ring "1.7.1"]]
   :repl-options {:init-ns todo-list.core}
   ;; :main setting below tells what to do when 'lein run' is ran
