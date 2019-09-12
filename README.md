@@ -1,6 +1,8 @@
 # My Clojure ToDo List
 
-A Clojure project designed to keep your daily to-do's organized.
+A Clojure project designed to keep your daily to-do's organized. Designed as a way for me to learn clojure web app structure.
+
+9/11/2019
 
 
 
