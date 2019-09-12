@@ -9,4 +9,7 @@
                  [ring "1.7.1"]]
   :repl-options {:init-ns todo-list.core}
   ;; :main setting below tells what to do when 'lein run' is ran
-  :main todo-list.core)
+  :main todo-list.core
+  ;; By adding a dev profile, the lein run command will look for this first during development.
+  :profiles {:dev
+             {:main todo-list.core/-dev-main}})
